@@ -1,18 +1,93 @@
-# 📚 CRUD com MongoDB e PyMongo
+# 📚 Sistema de Gerenciamento de Livros com MongoDB
 
-Este repositório contém o início de um CRUD utilizando **Python** com a biblioteca **PyMongo**, conectado ao banco de dados **MongoDB Atlas**.
-
-Foi desenvolvido como atividade prática para a disciplina de **Bancos de Dados Não Convencionais**, ministrada pelo Prof. **Heuryk**.
+Este projeto é um sistema web simples para gerenciamento de livros, desenvolvido com Node.js, Express, MongoDB e EJS.  
+Ele permite operações de **Create**, **Read**, **Update** e **Delete** (CRUD) em um catálogo de livros.
 
 ---
 
-## 🚀 Objetivo
+## 🚀 Tecnologias Utilizadas
 
-Criar um sistema simples para **cadastrar contatos**, realizando as operações básicas de:
+- Node.js
+- Express.js
+- MongoDB (via Mongoose)
+- EJS (Embedded JavaScript Templates)
+- Bootstrap (pra fingir que o CSS tá bonitinho)
+- Dotenv
 
-- Inserir contato
-- Listar contatos
-- Atualizar contato
-- Excluir contato
+---
 
-Tudo isso acessível por um **menu de opções no terminal**.
+## 🛠 Funcionalidades
+
+- 📥 Cadastro de novos livros  
+- 📋 Listagem de livros cadastrados  
+- ✏️ Edição das informações dos livros  
+- 🗑 Remoção de livros da base de dados
+
+
+---
+📁 Estrutura de Pastas
+
+├── models
+
+│   └── Livro.js
+
+├── routes
+
+│   └── livroRoutes.js
+
+├── views
+
+│   ├── livros
+
+│   └── partials
+
+├── public
+
+│   └── css
+
+├── server.js
+
+└── .env
+
+
+---
+📌 Próximos Passos
+
+Adicionar autenticação de usuários
+
+Implementar paginação na listagem de livros
+
+Criar versão RESTful da API
+
+
+
+---
+## 🧰 Como Rodar o Projeto
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/Luanacsilva/Sistema-de-gerenciamento-de-livros-com-MongoDB.git
+   cd Sistema-de-gerenciamento-de-livros-com-MongoDB
+---
+2  .Instale as dependências:
+
+        npm install
+
+3.  Configure o arquivo .env com sua string de conexão MongoDB:
+  
+        MONGO_URI=mongodb+srv://<usuário>:<senha>@cluster.mongodb.net/nomeDoBanco
+
+5.  Inicie o servidor:
+
+        npm start
+
+6.  Acesse no navegador:
+
+        http://localhost:3000
+
+
+⚖️ Licença
+
+Este projeto está sob a licença MIT
+
+
