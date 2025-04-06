@@ -1,6 +1,13 @@
 # 📚 Sistema de Gerenciamento de Livros com MongoDB
 
-![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![stack: backend](https://img.shields.io/badge/stack-backend-blue)
+![language: JavaScript](https://img.shields.io/badge/language-JavaScript-yellow)
+![framework: Node.js](https://img.shields.io/badge/framework-Node.js-brightgreen)
+![database: MongoDB](https://img.shields.io/badge/database-MongoDB-47A248)
+![auth: JWT](https://img.shields.io/badge/auth-JWT-yellow)
+![status: funcional](https://img.shields.io/badge/status-funcional-brightgreen)
+![license: MIT](https://img.shields.io/badge/license-MIT-green)
+
 
 
 Este projeto é um sistema web simples para gerenciamento de livros, desenvolvido com Node.js, Express, MongoDB e EJS.  
