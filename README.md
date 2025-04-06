@@ -1,5 +1,8 @@
 # 📚 Sistema de Gerenciamento de Livros com MongoDB
 
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+
+
 Este projeto é um sistema web simples para gerenciamento de livros, desenvolvido com Node.js, Express, MongoDB e EJS.  
 Ele permite operações de **Create**, **Read**, **Update** e **Delete** (CRUD) em um catálogo de livros.
 
